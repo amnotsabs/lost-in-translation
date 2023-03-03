@@ -204,19 +204,46 @@
     cursor: pointer;
 }
 
-#support2 .proceed-tips {
+.highlight {
+    background-color: rgba(97, 173, 179, 0.7);
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+    /*    flex: 0 0 100%;*/
+}
+
+#support2 .highlight:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+#support2 .proceed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#support2 .proceed-tips,
+#support2 .proceed-resources {
     margin: 20px;
     text-align: center;
+    flex: 0 0 40%;
 }
 
 
 
-#support2 .proceed-tips div {
+#support2 .proceed-tips div,
+#support2 .proceed-resources div {
     padding: 30px;
     margin-left: 100px;
 }
 
-#support2 .proceed-tips button {
+#support2 .proceed-tips button,
+#support2 .proceed-resources button {
 
     background-image: url(../assets/folder@2x.png);
     background-size: 32%;
@@ -226,10 +253,12 @@
     text-transform: uppercase;
 }
 
-#support2 .proceed-tips button p {
+#support2 .proceed-tips button p,
+#support2 .proceed-resources button p {
     font-size: 35px;
 }
 
-#support2 .proceed-tips button:hover {
+#support2 .proceed-tips button:hover,
+#support2 .proceed-resources button:hover {
     color: #61adb3;
 }
