@@ -1,0 +1,303 @@
+/* REFERENCES 
+
+#61adb3
+#8ec8cc
+#e8e6e6
+
+*/
+
+/* GLOBAL RESET */
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+/* FONTS */
+
+h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    text-align: center;
+    flex: 0 0 100%;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+    flex: 0 0 100%;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+
+h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    flex: 0 0 100%;
+    font-size: 65px;
+}
+
+h5 {
+    font-family: "Roboto Mono", monospace;
+    margin: 5px 0px 5px 20px;
+    font-size: 18px;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#disclaimer p {
+    font-variant-caps: all-small-caps;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+}
+
+
+button {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: #61adb3;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button a {
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+footer li {
+    font-family: "Playfair Display", sans-serif;
+}
+
+/*********************************************/
+/*      MARQUEE DISCLAIMER      */
+
+#disclaimer {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#disclaimer p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    animation: scroll-left 20s linear infinite;
+}
+
+/* Move it (define the animation) */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/*********************************************/
+body {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+#titlebar {
+    background-color: #61adb3;
+    display: flex;
+}
+
+
+#tbbtns {
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#maximise,
+#minimise,
+#close {
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 0;
+    margin: 0 0 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+#maximise:hover,
+#minimise:hover {
+    background-color: lightgray;
+}
+
+#close {
+    background-color: indianred;
+}
+
+#close:hover {
+    background-color: darkred;
+    color: white;
+}
+
+#tbbtns i,
+#sbbtns i {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+#searchbar {
+    background-color: #e8e6e6;
+    display: flex;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+#sbbtnsL {
+    margin-left: 20px;
+    flex: 0 0 100px;
+}
+
+#sbbtnsR {
+    margin: 0px 10px;
+
+}
+
+#sbleft,
+#sbright,
+#sbhome,
+#sbrefresh {
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    margin: 5px 1px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#searchbar a {
+    color: black;
+}
+
+#sbleft:hover,
+#sbright:hover,
+#sbhome:hover,
+#sbrefresh:hover {
+    background-color: #8ec8cc;
+
+}
+
+
+#url {
+    width: 89%;
+    margin-left: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#url select {
+    width: 100%;
+}
+
+/*********************************************/
+
+
+main {
+    margin: auto;
+    padding: 1%;
+    width: 90%;
+    overflow-x: hidden;
+}
+
+button:hover {
+    background-color: #8ec8cc;
+
+}
+
+mark {
+    padding: 3px 10px;
+    background-color: #8ec8cc;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 0;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+
+}
+
+/*********************************************/
+
+footer nav {
+    text-align: center;
+    border-top: 1px solid black;
+    background-color: #e8e6e6;
+    padding: 10px;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+
+footer li {
+    /*    padding: 5px;*/
+    text-decoration: none;
+
+}
+
+footer a {
+    color: #61adb3;
+    padding: 5px;
+}
+
+footer a:hover {
+    background-color: #8ec8cc;
+    color: black;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+
+}

@@ -1,0 +1,288 @@
+#gad2,
+#gad3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80.5vh;
+}
+
+/*************************************                  GAD 1 *************************************/
+
+.proceed-gad2 {
+    background-color: darkslategray;
+    margin: 20px 0 90px;
+    padding: 70px !important;
+    color: white;
+
+}
+
+
+.proceed-gad2 button {
+    border-radius: 25px;
+    background-color: darkslategray;
+    border: 1px solid white;
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.7);
+    width: 40%;
+    font-family: "Roboto Flex", sans-serif;
+    color: white;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.proceed-gad2 button:hover {
+    background-color: white;
+    color: darkslategray;
+}
+
+/*************************************                  GAD 2 *************************************/
+
+#gad2 .gad2-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#gad2 .gad2-flex .condition-description {
+    background-color: #8ec8cc;
+    background-image: url(../assets/waves.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 95%;
+    padding: 20px 10px;
+}
+
+#gad2 .proceed-gad3 {
+    width: 35%;
+    text-align: right;
+    margin: 20px;
+    background-color: #e8e6e6;
+    border: 1px solid black;
+    /*    display: flex;*/
+}
+
+#gad2 #proceed-gad3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    justify-content: center;
+    align-content: center;
+}
+
+#gad2 h5 {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+#gad2 button {
+    background-color: white;
+    text-transform: lowercase;
+    font-family: "Roboto Mono";
+    font-size: 18px;
+    margin: 5px;
+    /*    flex: 0 0 50%;*/
+}
+
+#gad2 button:hover {
+    background-color: lightgray;
+}
+
+/*************************************                  GAD 3 *************************************/
+
+
+#gad3 #gad3-condition {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gad3 .condition {
+    flex: 0 0 60% !important;
+}
+
+#gad3 .disclaimer {
+    margin-left: auto;
+    flex: 0 0 30%;
+    background-color: lightcoral;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+#gad3 .disclaimer:hover {
+    background-color: #d74f4f;
+    cursor: pointer;
+}
+
+#gad3 #disclaimerR {
+    /*    flex: 0 0 20%;*/
+    font-size: 70px;
+    margin: 20px;
+}
+
+#gad3 #disclaimerL {
+    margin: 20px;
+    font-size: 110px;
+    /*    text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#gad3 #disclaimerR h1 {
+    font-size: 43px;
+    text-align: left;
+}
+
+#gad3 #disclaimerR h3 {
+    font-size: 20px;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+#gad3 .gad3-flex {
+    flex: 0 0 100%;
+    /*    flex-direction: column-reverse;s*/
+}
+
+#gad3 #bgimg {
+    background-image: url(../assets/geometric-groovy-pattern.jpg);
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+    /*    text-align: right;*/
+    /*    display: inline-block;*/
+}
+
+#gad3 .condition-description {
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100%;
+    padding: 20px;
+    /*    position: absolute;*/
+}
+
+#gad3 p {
+    margin-left: 250px;
+}
+
+#gad3 button {
+    background-image: url(../assets/geometric-groovy-pattern.jpg);
+
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    /*    float: left;*/
+    position: absolute;
+    z-index: 5;
+    top: 620px;
+    left: 20px;
+}
+
+#gad3 button:hover {
+    opacity: 0.8;
+}
+
+/*************************************                  GAD 4 *************************************/
+
+#gad4 h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+    width: 100%;
+    /*    flex: 0 0 60%;*/
+    text-transform: capitalize;
+    font-size: 70px;
+}
+
+/**/
+.carousel-inner {
+    background-image: url(../assets/pink-baroque-tile.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    /*    height: 450px;*/
+    margin: auto;
+}
+
+.carousel-item {
+    padding: 150px;
+}
+
+.carousel-item h3 {
+    padding: 60px;
+    width: 80%;
+    margin: auto;
+    /*    color: white;*/
+    text-align: center;
+    background-color: lightpink;
+    /*    padding: 150px;*/
+}
+
+.proceed-gad5 {
+    margin: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.proceed-gad5 button {
+    border: 5px solid black;
+    padding: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+}
+
+/*************************************                  GAD 5 *************************************/
+
+#gad5 h3 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 900;
+    text-align: center;
+    background-image: url(../assets/less-more-than.png);
+    background-color: #61adb3;
+    background-size: cover;
+    color: #e8e6e6;
+    padding: 50px;
+    margin: 20px 0;
+}
+
+#gad5 #gad5-flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#gad5 #gad5-flexcontainer p {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+#gad5 .gad5-container {
+    flex: 0 0 40%;
+    padding: 40px;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;
+    color: darkslategray;
+}
+
+#gad5 .gad5-container:hover {
+    background-color: #8ec8cc;
+    color: white;
+    cursor: pointer;
+}
+
+#gad5 .gad5-container i {
+    font-size: 50px;
+    color: darkslategray;
+    padding: 10px;
+}
+
+#gad5 .gad5-container h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    color: black;
+}

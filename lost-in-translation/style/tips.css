@@ -1,0 +1,67 @@
+/*************************************                  MENTAL WELLBEING *************************************/
+/* source: http://www.ehow.com/how_12214447_make-collapsing-lists-java.html */
+.FAQ {
+    height: auto !important;
+    /*    background-color: #e8e6e6;*/
+    padding: 15px;
+    margin: 10px;
+    /*    border-radius: 15px;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.FAQ h3 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+.list {
+    display: none;
+    height: auto;
+    margin: 0;
+}
+
+.FAQ p {
+    margin: 10px 0;
+}
+
+.show {
+    display: none;
+}
+
+.hide:target + .show {
+    display: inline;
+}
+
+.hide:target {
+    display: none;
+}
+
+.hide:target ~ .list {
+    display: inline;
+}
+
+/*style the (+) and (-) */
+.hide,
+.show {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    background: #61adb3;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    box-shadow: 4px 4px black;
+}
+
+.hide:hover,
+.show:hover {
+    /*    color: #000;*/
+    background-color: #8ec8cc;
+    text-decoration: none;
+}
+
+/*************************************                  STRESS BUSTERS *************************************/

@@ -1,0 +1,281 @@
+/*************************************                        DD 1 *************************************/
+
+#dd1 h3 {
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    background-image: url(../assets/7846370.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    margin: 15px 0;
+}
+
+#dd1 a h3 {
+    color: black;
+}
+
+/*************************************                        DD 2 *************************************/
+
+#dd2 #titlebar {
+    text-transform: capitalize;
+}
+
+#dd2 .dd-types,
+#dd2 .proceed-dd3 {
+    padding: 15px;
+    background-color: #e8e6e6;
+    margin-bottom: 30px;
+}
+
+#dd2 .proceed-dd3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#dd2 .proceed-dd3 aside {
+    height: 70px;
+    width: 65px;
+    background-image: url(../assets/documents@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#dd2 .proceed-dd3 a {
+    color: black;
+    display: inline-block;
+    font-size: 50px;
+}
+
+#dd2 .proceed-dd3 h5 {
+    font-size: 55px;
+    display: inline-block;
+}
+
+/*************************************                        DD 3 *************************************/
+#dd3 {
+    min-height: 80.5vh;
+}
+
+#dd3 .dd3-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*#dd3 .condition*/
+
+
+#dd3 .condition-description {
+    flex: 0 0 55%;
+}
+
+#dd3 .disclaimer {
+    margin-left: auto;
+    flex: 0 0 35%;
+    background-color: lightcoral;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+#dd3 .disclaimer:hover {
+    background-color: #d74f4f;
+    cursor: pointer;
+}
+
+#dd3 #disclaimerR {
+    flex: 0 0 100%;
+    font-size: 150px;
+    text-align: center;
+    /*    margin: 20px;*/
+}
+
+#dd3 #disclaimerL {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#dd3 #disclaimerL h1 {
+    font-size: 50px;
+}
+
+#dd3 #disclaimerL h3 {
+    font-size: 30px;
+    font-family: "Roboto Mono", monospace;
+}
+
+#dd3 .proceed-dd4 {
+    margin-top: 20px;
+    background-image: url(../assets/waves.png);
+    background-color: #61adb3;
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: left;
+    text-align: center;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+
+
+}
+
+#dd3 .proceed-dd4 a {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+#dd3 .proceed-dd4:hover {
+    background-color: #8ec8cc;
+    cursor: pointer;
+
+}
+
+/*************************************                        DD 4 *************************************/
+
+#dd4 h3 {
+    font-family: "Roboto Mono", monospace;
+    text-transform: uppercase;
+    background-image: url(../assets/grid@2x.png);
+    background-color: #8ec8cc;
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px;
+    margin: 15px 0;
+}
+
+#dd4 a h3 {
+    color: black;
+}
+
+/*************************************                        DD 5 *************************************/
+
+#dd5 h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 800;
+    flex: 0 0 100%;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap; // make sure it wraps
+}
+
+.tabs label {
+    order: 1; // Put the labels first
+    display: block;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background: #e8e6e6;
+    font-weight: bold;
+    transition: background ease 0.2s;
+}
+
+.tabs .tab {
+    order: 99; // Put the tabs last
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    background: #8ec8cc;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input[type="radio"]:checked + label {
+    background: #8ec8cc;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+    padding: 20px;
+}
+
+@media (max-width: 45em) {
+
+    .tabs .tab,
+    .tabs label {
+        order: initial;
+    }
+
+    .tabs label {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0.2rem;
+    }
+}
+
+.carousel-inner {
+    background-image: url(../assets/5773404.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    /*    height: 450px;*/
+    margin: auto;
+}
+
+.carousel-item {
+    padding: 120px;
+}
+
+.carousel-item h3 {
+    text-align: center;
+}
+
+.carousel-item .dd-treatment {
+    padding: 60px;
+    width: 80%;
+    margin: auto;
+    /*    color: white;*/
+    text-align: center;
+    background-color: white;
+    /*    padding: 150px;*/
+}
+
+
+.resources {
+    background-color: darkslategray;
+    margin: 20px 0 50px;
+    padding: 70px !important;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.resources h3 {
+    font-size: 60px;
+}
+
+.resources button {
+    border-radius: 25px;
+    background-color: darkslategray;
+    border: 1px solid white;
+    box-shadow: 4px 4px rgba(255, 255, 255, 0.7);
+    width: 40%;
+    color: white;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 25px;
+}
+
+.resources button:hover {
+    background-color: white;
+    color: darkslategray;
+}
