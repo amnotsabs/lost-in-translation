@@ -1,0 +1,256 @@
+/*************************************                  DEPRESSION 1 *************************************/
+
+#depression1 {
+    min-height: 80.5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#depression1 .condition {
+    flex: 0 0 100%;
+}
+
+#depression1 .content-description {
+    flex: 0 0 100%;
+}
+
+#depression1 .proceed-depression2 {
+
+    text-align: center;
+    margin: auto;
+}
+
+#depression1 .proceed-depression2 button {
+    background-image: url(../assets/grid@2x.png);
+    color: white;
+
+    background-size: auto;
+    padding: 30px;
+}
+
+#depression1 .proceed-depression2 button:hover {
+    background-color: #8ec8cc;
+    color: black;
+}
+
+/*************************************                  DEPRESSION 2 *************************************/
+
+#depression2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#depression2 .condition {
+    flex: 0 0 100% !important;
+    display: flex;
+}
+
+#depression2 .disclaimer {
+    margin-left: auto;
+    flex: 0 0 30%;
+    background-color: lightcoral;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+#depression2 .disclaimer:hover {
+    background-color: #d74f4f;
+    cursor: pointer;
+}
+
+#depression2 #disclaimerR {
+    /*    flex: 0 0 20%;*/
+    font-size: 70px;
+    margin: 20px;
+}
+
+#depression2 #disclaimerL {
+    margin: 20px;
+    font-size: 110px;
+    /*    text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#depression2 #disclaimerR h1 {
+    font-size: 43px;
+    text-align: left;
+}
+
+#depression2 #disclaimerR h3 {
+    font-size: 20px;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+#depression2 #depression2-content {
+    min-height: 62vh;
+    display: flex;
+    flex-wrap: wrap;
+    /*    align-content: center;*/
+    /*    justify-content: center;*/
+}
+
+#depression2 .condition-description {
+    /*    background-image: url(../assets/);*/
+    flex: 0 0 100%;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#depression2 .condition-description p {
+    flex: 0 0 100%;
+}
+
+#depression2 .proceed-depression3 {
+    /*    flex: 0 0 100%;*/
+    margin: auto;
+}
+
+#depression2 .proceed-depression3 button {
+    display: flex;
+    box-shadow: none;
+    background-color: white;
+    border: 2px solid black;
+    padding: 0;
+    margin: 20px;
+}
+
+#depression2 .proceed-depression3 div {
+    margin: 10px 30px 10px 10px;
+
+}
+
+#depression2 .proceed-depression3 aside {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+}
+
+/*************************************                  DEPRESSION 3 *************************************/
+
+#depression3 {
+    min-height: 80vh;
+}
+
+/**
+ * Tabs
+ */
+.tabs {
+    display: flex;
+    flex-wrap: wrap; // make sure it wraps
+}
+
+.tabs label {
+    order: 1; // Put the labels first
+    display: block;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background: #e8e6e6;
+    font-weight: bold;
+    transition: background ease 0.2s;
+}
+
+.tabs .tab {
+    order: 99; // Put the tabs last
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    background: #8ec8cc;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input[type="radio"]:checked + label {
+    background: #8ec8cc;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+    padding: 20px;
+}
+
+@media (max-width: 45em) {
+
+    .tabs .tab,
+    .tabs label {
+        order: initial;
+    }
+
+    .tabs label {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0.2rem;
+    }
+}
+
+#depression3 .proceed-depression4 {
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+#depression3 .proceed-depression4 div {
+    padding: 30px;
+    margin-left: 100px;
+}
+
+#depression3 .proceed-depression4 button {
+
+
+    background-image: url(../assets/folder@2x.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    box-shadow: none;
+    /*        padding: 0px;*/
+}
+
+#depression3 .proceed-depression4 button:hover {
+    color: #61adb3;
+}
+
+#depression3 h5 {
+    margin: 0;
+}
+
+/*************************************                  DEPRESSION 4 *************************************/
+
+#depression4 {
+    /*    min-height: 80vh;*/
+}
+
+.resources {
+    margin: 50px 0;
+    background-image: url(../assets/smile-bg@2x.png);
+    height: 350px;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    /*    padding-top: 50%;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-position: center
+}
+
+.resources button {
+    box-shadow: none;
+    background-color: white;
+    padding: 50px;
+    font-size: 80px;
+    width: 850px;
+
+}
